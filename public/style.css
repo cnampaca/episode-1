@@ -1,0 +1,17 @@
+body{
+font-size: 30px;
+background-color: #fff;
+font-family: 'Comfortaa', Serif;}
+
+h1{ display: none;}
+
+p{
+text-transform: uppercase;
+color: #212121;
+text-align: center;
+margin-top: 50vh;               /* poussé de la moitié de hauteur de viewport */
+transform: translateY(-50%);    /* tiré de la moitié de sa propre hauteur */ }
+
+@media only screen and (min-width: 600px){
+    body{ font-size: 80px;}
+}
